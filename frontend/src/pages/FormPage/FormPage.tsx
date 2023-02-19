@@ -1,12 +1,12 @@
 import { FC } from "react";
-import {FormElement, Forms} from "../../components";
+import {FormElement} from "../../components";
+import {FormPageDiv} from "../../App.styles";
 
 const FormPage: FC = () => {
     return (
-        <div>
+        <FormPageDiv>
             <FormElement/>
-            <Forms/>
-        </div>
+        </FormPageDiv>
     );
 };
 
